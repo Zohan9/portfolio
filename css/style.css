@@ -32,13 +32,15 @@ background-color: LightSlateGrey;
     font-weight: 700;
 }
 .wrapper{
-    background-color: yellow;
+    background-color: whitesmoke;
     width: 100%;
     height: 800px;
-    grid-area: main;   
+
+      
 }
 
 .aboutMe{
+    padding: 5px; 
     width: 60%;
     height: 100px;
    margin-top: 6px;
@@ -46,13 +48,19 @@ background-color: LightSlateGrey;
     float: right;
     background-color: LightSlateGrey;
     height: 100%;
+    border-radius: 10px;
 }
 .mySkills{
     width: 100%;
     height: 250px;
     background-color: rgb(51, 75, 100);
 }
-.mySkills .mySkill_one .mySkill_two .mySkill_three{
-color: red;
+.mySkills .mySkill_one, .mySkill_two, .mySkill_three{
+color:white;
 background-color: red;
-} 
+margin: 2px;
+border-radius: 10px;
+grid-area: main;
+
+}
+  
