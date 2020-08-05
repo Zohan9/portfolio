@@ -1,66 +1,105 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
+body{
+    margin: 0;
+    background-color: hsla(50, 33%, 25%, .75);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.header{   
-width: 100%;
-height: 80px;
-display: block;
-background-color: LightSlateGrey;
+.Center{
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.myLogo{
-   
-    height: 100%;
-    display: table;
-    float: left;
+.Header {
+    overflow: hidden;
+    background-color:rgb(177, 175, 163);
+  }
+  .nav{
+      float: left;
+  }
+    .About_Me{
+        float: right; 
+        max-width: 925px;
+        
+    }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+   width: auto;
+    background-color:rgb(177, 175, 163);
+    border-radius: 2%;
 }
-.myLogo h1{
-
-    color: whitesmoke;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: Franklin Gothic;
-    font-size: 32px;
-    font-weight: 200;
-
-}
-.myLogo h1 span{
-    font-weight: 700;
-}
-.wrapper{
-    background-color: whitesmoke;
-    width: 100%;
-    height: 800px;
-
-      
-}
-
-.aboutMe{
-    padding: 5px; 
-    width: 60%;
-    height: 100px;
-   margin-top: 6px;
-   margin-right: 10px;
+.wraper{
+ 
+    justify-content: flex-end;
+    width: auto;
+    background-color: rgb(177, 175, 163);
     float: right;
-    background-color: LightSlateGrey;
-    height: 100%;
-    border-radius: 10px;
-}
-.mySkills{
-    width: 100%;
-    height: 250px;
-    background-color: rgb(51, 75, 100);
-}
-.mySkills .mySkill_one, .mySkill_two, .mySkill_three{
-color:white;
-background-color: red;
-margin: 2px;
-border-radius: 10px;
-grid-area: main;
+    border-radius: 2%;
+  }
 
-}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 10px;
+    
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+  }
   
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+    border-radius: 25%;
+  }
+  
+  div.desc {
+    padding: 1px;
+    text-align: center;
+  }
+
+  .fa {
+
+    padding: 9px;
+    font-size: 12px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
