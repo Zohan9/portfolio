@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: hsla(50, 33%, 25%, .75);
+    background-color: #869D98;
     font-family: Arial, Helvetica, sans-serif;
 }
 .Center{
@@ -10,10 +10,23 @@ body{
 }
 .Header {
     overflow: hidden;
-    background-color:rgb(177, 175, 163);
+    background-color:#38404b;
   }
   .nav{
       float: left;
+      background-color:#8eb3ab ;
+      border-radius: 15px;
+      margin-top: 5px; 
+      
+      
+  }
+  h1{
+    margin-left: 10px;
+    color:#022D41 ;
+  }
+  h6{
+    margin-left: 10px;
+    text-size-adjust: 22px;
   }
     .About_Me{
         float: right; 
@@ -24,21 +37,20 @@ body{
     display: flex;
     flex-wrap: wrap;
    width: auto;
-    background-color:rgb(177, 175, 163);
-    border-radius: 2%;
 }
 .wraper{
- 
+
     justify-content: flex-end;
     width: auto;
-    background-color: rgb(177, 175, 163);
+    background-color: #8eb3ab;
     float: right;
-    border-radius: 2%;
+    border-radius: 15px;
+    margin-top: 5px;
   }
 
 
 .flex-container > div {
-    background-color: #f1f1f1;
+    background-color:#bbded6;
     width: 200px;
     margin: 10px;
     
@@ -48,6 +60,7 @@ body{
     border: 1px solid #ccc;
     float: left;
     width: 220px;
+    border-radius: 5px;
   }
   
   div.gallery:hover {
