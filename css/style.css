@@ -7,26 +7,70 @@ body{
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
+    display: grid;
+  grid-template-columns: auto auto auto;
 }
+/*header*/
 .Header {
     overflow: hidden;
     background-color:#38404b;
   }
+ /*My logo*/
+div.myLogo h1{
+color: white;
+font-weight: 200;
+font-size: 2em;
+margin-top: 5px;
+}
+div.myLogo h1 span{
+  font-weight: 700;
+  color: #FC4A1A;
+}
+.myImage a img{
+  border-radius: 50%;
+text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+
+}
+/*css of the left section*/
+div.nav h6 img{
+  
+width: 15px;
+height: 15px;
+padding: 2px;
+}
+.wraper h1 img{
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+}
   .nav{
       float: left;
       background-color:#8eb3ab ;
       border-radius: 15px;
       margin-top: 5px; 
-      
-      
+      min-width: 300px;
+      border-right: 2px solid rgba(0, 0, 0, 0.8); 
+  }
+  p{
+    margin: 5px;
   }
   h1{
     margin-left: 10px;
-    color:#022D41 ;
+    color:#022D41;
+    font-size: 22px;
+    margin-bottom: 3px;
+  }
+  h3{
+    text-align: center;
+    margin-top: 3px;
   }
   h6{
     margin-left: 10px;
-    text-size-adjust: 22px;
+    font-size: 14px;
   }
     .About_Me{
         float: right; 
@@ -39,7 +83,7 @@ body{
    width: auto;
 }
 .wraper{
-
+  border-left: 2px solid rgba(0, 0, 0, 0.8); 
     justify-content: flex-end;
     width: auto;
     background-color: #8eb3ab;
@@ -61,8 +105,12 @@ body{
     float: left;
     width: 220px;
     border-radius: 5px;
+    
   }
-  
+  div.gallery h3{
+    text-align: center;
+
+  }
   div.gallery:hover {
     border: 1px solid #777;
   }
@@ -78,6 +126,13 @@ body{
     text-align: center;
   }
 
+  .connect{
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    
+    text-align: center;
+    justify-content: center;
+  }
   .fa {
 
     padding: 9px;
